@@ -1,4 +1,4 @@
-package Controleur;
+package Modele;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -26,7 +26,7 @@ public class ControleConnexion {
 	      }
 	      
 	   }
-	public Connection getConnexion() {
+	public  Connection getConnexion() {
 		
 		return laConnexion;
 	}
